@@ -1,0 +1,20 @@
+# Code book:
+activity: table of activity level from raw data
+## 
+CleanedData: cbind of Subject, Y, X
+##
+features: table of features from raw data
+##
+Subject: rbind of SubjectTest and SubjectTrain
+## 
+SubjectTest: testing info from raw data
+## 
+SubjectTrain: training info from raw data
+## 
+TidyData: final dataset that is written to the txt file, Cleaned data sorted averages by subject and activity
+## 
+X: the features of x_test and x_train including mean or std
+## 
+Y: the features of y_test and y_train including mean or std
+#
+#
